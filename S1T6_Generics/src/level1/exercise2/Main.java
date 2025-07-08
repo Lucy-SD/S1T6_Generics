@@ -6,6 +6,5 @@ public class Main {
         GenericMethodsManager manager = new GenericMethodsManager();
 
         manager.demostrateMethods();
-
     }
 }

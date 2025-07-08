@@ -11,8 +11,8 @@ public class GenericMethodsManager {
     public void demostrateMethods(){
         System.out.println("*** Probando el método <T, U, V> de GenericMethods ***");
 
-        Person person1 = new Person("Loli", "Prieto", 22);
-        Person person2 = new Person("Toni", "Olando", 24);
+        Person person1 = new Person("Hannah", "Volada", 34);
+        Person person2 = new Person("Piti", "Alvarez", 53);
 
         System.out.println("\n--- Probando <Person, String, Integer> ---");
         genericMethods.printArguments(person2, "Prueba Correcta.", 123);
